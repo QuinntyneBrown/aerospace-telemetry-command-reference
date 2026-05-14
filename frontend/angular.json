@@ -203,6 +203,136 @@
           "builder": "@angular/build:unit-test"
         }
       }
+    },
+    "white-label-dashboard": {
+      "projectType": "library",
+      "root": "projects/white-label-dashboard",
+      "sourceRoot": "projects/white-label-dashboard/src",
+      "prefix": "viam",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:ng-packagr",
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/white-label-dashboard/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/white-label-dashboard/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular/build:unit-test",
+          "options": {
+            "tsConfig": "projects/white-label-dashboard/tsconfig.spec.json"
+          }
+        }
+      }
+    },
+    "dashboard-platform": {
+      "projectType": "library",
+      "root": "projects/dashboard-platform",
+      "sourceRoot": "projects/dashboard-platform/src",
+      "prefix": "viam",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:ng-packagr",
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/dashboard-platform/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/dashboard-platform/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular/build:unit-test",
+          "options": {
+            "tsConfig": "projects/dashboard-platform/tsconfig.spec.json"
+          }
+        }
+      }
+    },
+    "harborlift-dashboard": {
+      "projectType": "library",
+      "root": "projects/harborlift-dashboard",
+      "sourceRoot": "projects/harborlift-dashboard/src",
+      "prefix": "viam",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:ng-packagr",
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/harborlift-dashboard/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/harborlift-dashboard/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular/build:unit-test",
+          "options": {
+            "tsConfig": "projects/harborlift-dashboard/tsconfig.spec.json"
+          }
+        }
+      }
+    },
+    "terragrid-dashboard": {
+      "projectType": "library",
+      "root": "projects/terragrid-dashboard",
+      "sourceRoot": "projects/terragrid-dashboard/src",
+      "prefix": "viam",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:ng-packagr",
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/terragrid-dashboard/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/terragrid-dashboard/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular/build:unit-test",
+          "options": {
+            "tsConfig": "projects/terragrid-dashboard/tsconfig.spec.json"
+          }
+        }
+      }
+    },
+    "white-label-ui": {
+      "projectType": "library",
+      "root": "projects/white-label-ui",
+      "sourceRoot": "projects/white-label-ui/src",
+      "prefix": "viam",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:ng-packagr",
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/white-label-ui/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/white-label-ui/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular/build:unit-test",
+          "options": {
+            "tsConfig": "projects/white-label-ui/tsconfig.spec.json"
+          }
+        }
+      }
     }
   }
 }

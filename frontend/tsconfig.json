@@ -1,8 +1,13 @@
-/* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
-/* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "dashboard-platform": ["./dist/dashboard-platform"],
+      "harborlift-dashboard": ["./dist/harborlift-dashboard"],
+      "terragrid-dashboard": ["./dist/terragrid-dashboard"],
+      "white-label-dashboard": ["./dist/white-label-dashboard"],
+      "white-label-ui": ["./dist/white-label-ui"]
+    },
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
@@ -40,6 +45,36 @@
     },
     {
       "path": "./projects/terragrid-autonomy/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/white-label-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/white-label-dashboard/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/dashboard-platform/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/dashboard-platform/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/harborlift-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/harborlift-dashboard/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/terragrid-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/terragrid-dashboard/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/white-label-ui/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/white-label-ui/tsconfig.spec.json"
     }
   ]
 }
