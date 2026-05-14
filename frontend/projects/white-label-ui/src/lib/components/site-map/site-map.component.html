@@ -1,0 +1,22 @@
+<viam-md-card>
+  <viam-card-header [title]="title" [subtitle]="subtitle">
+    @if (meta) {
+      <span class="muted">{{ meta }}</span>
+    }
+  </viam-card-header>
+  <div class="site-map" [attr.aria-label]="ariaLabel || title">
+    <viam-map-orbit />
+    <viam-map-lane variant="one" />
+    <viam-map-lane variant="two" />
+    @for (node of nodes; track node.label || node.icon + node.left + node.top) {
+      <viam-map-node
+        [icon]="node.icon"
+        [left]="node.left"
+        [top]="node.top"
+        [color]="node.color || 'var(--viam-info, #8be7ff)'"
+        [label]="node.label || ''"
+      />
+    }
+    <ng-content />
+  </div>
+</viam-md-card>

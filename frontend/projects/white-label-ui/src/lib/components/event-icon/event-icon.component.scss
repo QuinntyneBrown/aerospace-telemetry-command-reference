@@ -1,0 +1,10 @@
+:host {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--event-color, #8be7ff), transparent 88%);
+  color: var(--event-color, #8be7ff);
+}

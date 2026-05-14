@@ -1,0 +1,13 @@
+<button
+  class="icon-button"
+  [type]="type"
+  [disabled]="disabled"
+  [attr.aria-label]="ariaLabel || title || icon"
+  [attr.title]="title || null"
+  (click)="clicked.emit($event)"
+>
+  @if (icon) {
+    <viam-icon [name]="icon" />
+  }
+  <ng-content />
+</button>

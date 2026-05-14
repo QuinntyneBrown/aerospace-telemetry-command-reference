@@ -1,0 +1,8 @@
+<viam-event-icon [icon]="icon" [color]="color" />
+<div class="event-copy">
+  <strong>{{ title }}</strong>
+  @if (detail) {
+    <span>{{ detail }}</span>
+  }
+</div>
+<viam-event-time [time]="time" />

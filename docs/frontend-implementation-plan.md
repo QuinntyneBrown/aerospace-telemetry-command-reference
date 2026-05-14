@@ -40,6 +40,69 @@ frontend/projects/
 - Use Angular Material for UI controls and Material 3 theming.
 - Use Chart.js through platform-level wrappers, not directly throughout branded feature code.
 - Use provider tokens for tenant config, tile catalogs, command catalogs, telemetry streams, navigation, and dashboard layouts.
+- Split every Angular component into one folder per component, with one file per type: `.ts`, `.html`, and `.scss`.
+- Use the interface-driven service consumption pattern for library-to-library service dependencies.
+
+## Component File Structure
+
+Every reusable component should live in its own folder.
+
+```text
+projects/<library-name>/src/lib/components/<component-name>/
+  <component-name>.component.ts
+  <component-name>.component.html
+  <component-name>.component.scss
+```
+
+Rules:
+
+- Do not use inline `template` or inline `styles` for library components.
+- Use `templateUrl` and `styleUrl` in component metadata.
+- Keep each component folder focused on one component.
+- Export components through a local `components/index.ts` barrel and then through the library `public-api.ts`.
+- Keep presentation components dumb: inputs in, outputs out.
+
+## Interface-Driven Service Consumption
+
+All frontend libraries should follow the interface-driven service consumption pattern from:
+
+https://github.com/QuinntyneBrown/interface-driven-service-consumption
+
+The rule is that a consuming library imports contracts, not concrete service classes. A service boundary should be expressed as:
+
+- An interface that describes the behavior the consumer needs.
+- An Angular `InjectionToken<TInterface>` for that interface.
+- One or more concrete implementations provided by the host app or owning library.
+
+Example shape:
+
+```ts
+export interface ICommandDispatchService {
+  dispatch(request: CommandRequest): Observable<CommandResult>;
+}
+
+export const COMMAND_DISPATCH_SERVICE =
+  new InjectionToken<ICommandDispatchService>('COMMAND_DISPATCH_SERVICE');
+```
+
+Consumers use the token:
+
+```ts
+private readonly commandDispatch = inject(COMMAND_DISPATCH_SERVICE);
+```
+
+They should not import or instantiate the concrete implementation.
+
+Rules:
+
+- Put cross-library service contracts in `*.contract.ts` files.
+- Use an `I` prefix for behavioral service contracts, such as `ICommandDispatchService`.
+- Do not use an `I` prefix for plain data models such as `CommandRequest` or `TelemetrySample`.
+- Name concrete implementations without an `Impl` suffix, such as `CommandDispatchService`.
+- Libraries should consume services through interfaces and `InjectionToken`s only.
+- Host apps or owning libraries bind tokens to real implementations through providers.
+- Tests and future harnesses can bind the same tokens to mock implementations.
+- Dashboard-specific libraries may provide configuration, commands, telemetry, and tile definitions through tokens, but they should not force the platform to import branded concrete classes.
 
 ## Phase 1: Shared UI Foundation
 
@@ -61,6 +124,9 @@ Deliverables:
 
 Rules:
 
+- Each component lives under `projects/white-label-ui/src/lib/components/<component-name>/`.
+- Each component is split into `<component-name>.component.ts`, `<component-name>.component.html`, and `<component-name>.component.scss`.
+- Shared UI model types live under `projects/white-label-ui/src/lib/models/`, with one TypeScript file per model or exported constant.
 - Components receive data through inputs.
 - Components emit user intent through outputs.
 - No tenant logic.
@@ -100,6 +166,13 @@ Deliverables:
   - `DASHBOARD_LAYOUT`
   - `NAVIGATION_ITEMS`
 
+Contract rules:
+
+- Cross-library services must expose `*.contract.ts` files with an interface and `InjectionToken`.
+- Platform consumers should inject tokens instead of importing concrete services.
+- Real service implementations belong in platform runtime files and are provided by `provideDashboardPlatform()`.
+- Dashboard-specific libraries can supply values and implementations through provider functions, but the platform must only depend on contracts.
+
 Verification:
 
 - `npx ng build dashboard-platform`
@@ -136,6 +209,7 @@ Rules:
 - The platform renders registered data; it does not define brand-specific domain content.
 - No HarborLift or TerraGrid imports.
 - Platform components can use `white-label-ui`.
+- Platform runtime services should be consumed by interface/token contracts so branded dashboards and tests can replace implementations without changing platform consumers.
 
 Verification:
 

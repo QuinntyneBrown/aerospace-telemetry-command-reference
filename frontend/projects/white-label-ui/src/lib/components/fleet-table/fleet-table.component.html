@@ -1,0 +1,25 @@
+<viam-md-card>
+  <viam-card-header [title]="title" [subtitle]="subtitle">
+    @if (showOpenAction) {
+      <viam-icon-button
+        icon="open_in_full"
+        title="Open fleet"
+        ariaLabel="Open fleet"
+        (clicked)="openFleet.emit($event)"
+      />
+    }
+  </viam-card-header>
+  <div class="fleet-list">
+    @for (row of rows; track row.name) {
+      <viam-fleet-row
+        [name]="row.name"
+        [detail]="row.detail"
+        [state]="row.state"
+        [battery]="row.battery"
+        [temperature]="row.temperature"
+        [color]="row.color || 'var(--viam-success, #4fe3a4)'"
+      />
+    }
+    <ng-content />
+  </div>
+</viam-md-card>

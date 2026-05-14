@@ -1,0 +1,39 @@
+:host {
+  display: block;
+  min-width: 0;
+}
+
+.command-button {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 74px;
+  padding: 12px 8px;
+  border: 1px solid color-mix(in srgb, var(--cmd-color, #8be7ff), transparent 72%);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--cmd-color, #8be7ff), transparent 92%);
+  color: var(--viam-text, #f3f7fb);
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease;
+}
+
+.command-button:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--cmd-color, #8be7ff), transparent 84%);
+  border-color: color-mix(in srgb, var(--cmd-color, #8be7ff), transparent 54%);
+}
+
+.command-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+viam-icon {
+  --viam-icon-size: 24px;
+  color: var(--cmd-color, #8be7ff);
+}

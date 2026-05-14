@@ -1,0 +1,16 @@
+:host {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--viam-brand-mark-size, 42px);
+  height: var(--viam-brand-mark-size, 42px);
+  border: 1px solid var(--viam-brand-mark-border, rgba(139, 231, 255, 0.28));
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(139, 231, 255, 0.18), rgba(79, 227, 164, 0.08)),
+    var(--viam-brand-mark-bg, rgba(255, 255, 255, 0.04));
+  color: var(--viam-brand-mark-color, #f3f7fb);
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0;
+}

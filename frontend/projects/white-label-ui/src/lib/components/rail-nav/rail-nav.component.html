@@ -1,0 +1,14 @@
+@if (items.length) {
+  @for (item of items; track item.value) {
+    <viam-rail-button
+      [label]="item.label"
+      [icon]="item.icon"
+      [value]="item.value"
+      [active]="item.active || item.value === activeValue"
+      [disabled]="item.disabled || false"
+      (selected)="selected.emit($event)"
+    />
+  }
+} @else {
+  <ng-content />
+}

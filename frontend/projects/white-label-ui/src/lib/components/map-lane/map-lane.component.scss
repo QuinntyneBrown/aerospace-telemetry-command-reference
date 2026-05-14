@@ -1,0 +1,18 @@
+:host {
+  position: absolute;
+  right: 10%;
+  left: 10%;
+  height: 1px;
+  background: var(--viam-map-line, rgba(139, 231, 255, 0.18));
+  transform-origin: center;
+}
+
+:host(.one) {
+  top: 38%;
+  transform: rotate(9deg);
+}
+
+:host(.two) {
+  top: 62%;
+  transform: rotate(-12deg);
+}

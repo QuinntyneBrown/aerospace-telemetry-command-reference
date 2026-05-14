@@ -1,0 +1,8 @@
+:host {
+  display: inline-flex;
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  background: var(--dot, var(--viam-status-color, #4fe3a4));
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--dot, #4fe3a4), transparent 82%);
+}

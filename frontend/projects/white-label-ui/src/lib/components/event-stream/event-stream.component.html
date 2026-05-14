@@ -1,0 +1,24 @@
+<viam-md-card>
+  <viam-card-header [title]="title" [subtitle]="subtitle">
+    @if (showFilterAction) {
+      <viam-icon-button
+        icon="filter_list"
+        title="Filter events"
+        ariaLabel="Filter events"
+        (clicked)="filterClicked.emit($event)"
+      />
+    }
+  </viam-card-header>
+  <viam-event-list>
+    @for (event of events; track event.title + event.time) {
+      <viam-event-row
+        [icon]="event.icon"
+        [title]="event.title"
+        [detail]="event.detail"
+        [time]="event.time"
+        [color]="event.color || 'var(--viam-info, #8be7ff)'"
+      />
+    }
+    <ng-content />
+  </viam-event-list>
+</viam-md-card>

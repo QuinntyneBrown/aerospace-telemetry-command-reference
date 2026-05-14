@@ -1,0 +1,11 @@
+<button
+  class="tile-control"
+  type="button"
+  [class.danger]="danger"
+  [disabled]="disabled"
+  [attr.title]="title || ariaLabel || icon"
+  [attr.aria-label]="ariaLabel || title || icon"
+  (click)="clicked.emit($event)"
+>
+  <viam-icon [name]="icon" />
+</button>

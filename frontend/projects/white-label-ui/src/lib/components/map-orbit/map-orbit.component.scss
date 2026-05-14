@@ -1,0 +1,6 @@
+:host {
+  position: absolute;
+  inset: 16%;
+  border: 1px dashed var(--viam-map-line, rgba(139, 231, 255, 0.22));
+  border-radius: 999px;
+}

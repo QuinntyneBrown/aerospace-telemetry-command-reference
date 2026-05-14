@@ -1,0 +1,11 @@
+<label class="search">
+  <viam-icon [name]="icon" />
+  <input
+    type="search"
+    [value]="value"
+    [placeholder]="placeholder"
+    [disabled]="disabled"
+    [attr.aria-label]="ariaLabel || placeholder"
+    (input)="onInput($event)"
+  />
+</label>

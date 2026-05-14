@@ -1,0 +1,12 @@
+<button
+  class="rail-button"
+  type="button"
+  [class.active]="active"
+  [disabled]="disabled"
+  [attr.title]="label"
+  [attr.aria-label]="label"
+  [attr.aria-current]="active ? 'page' : null"
+  (click)="selected.emit(value)"
+>
+  <viam-icon [name]="icon" />
+</button>

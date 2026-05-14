@@ -1,0 +1,13 @@
+<select
+  class="select-field"
+  [value]="value"
+  [disabled]="disabled"
+  [attr.aria-label]="ariaLabel || label || null"
+  (change)="onChange($event)"
+>
+  @for (option of options; track option.value) {
+    <option [value]="option.value" [disabled]="option.disabled || false">
+      {{ option.label }}
+    </option>
+  }
+</select>

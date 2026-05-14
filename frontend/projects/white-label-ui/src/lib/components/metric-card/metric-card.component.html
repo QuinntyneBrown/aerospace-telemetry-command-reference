@@ -1,0 +1,14 @@
+<viam-md-card>
+  <article class="metric-card">
+    <div class="metric-copy">
+      <span class="metric-label">{{ label }}</span>
+      <strong class="metric-value">{{ value }}</strong>
+      @if (trend) {
+        <viam-metric-trend [label]="trend" [icon]="trendIcon" [tone]="tone" />
+      }
+    </div>
+    @if (icon) {
+      <viam-metric-icon [icon]="icon" [color]="color" />
+    }
+  </article>
+</viam-md-card>

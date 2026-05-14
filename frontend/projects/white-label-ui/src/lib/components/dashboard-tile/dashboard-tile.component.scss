@@ -1,0 +1,28 @@
+:host {
+  position: relative;
+  display: block;
+  min-width: 0;
+  min-height: 0;
+  grid-column: span var(--tile-span, 4);
+}
+
+:host([data-size='mini']) {
+  --tile-span: 3;
+}
+
+:host([data-size='small']),
+:host([data-size='medium']) {
+  --tile-span: 4;
+}
+
+:host([data-size='large']) {
+  --tile-span: 6;
+}
+
+:host([data-size='wide']) {
+  --tile-span: 8;
+}
+
+:host([data-size='full']) {
+  --tile-span: 12;
+}

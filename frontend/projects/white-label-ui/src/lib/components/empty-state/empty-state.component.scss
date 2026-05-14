@@ -1,0 +1,53 @@
+:host {
+  display: block;
+}
+
+.empty-state {
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+  min-width: 0;
+  padding: 32px 20px;
+  border: 1px dashed var(--viam-empty-border, rgba(255, 255, 255, 0.14));
+  border-radius: 8px;
+  background: var(--viam-empty-bg, rgba(255, 255, 255, 0.03));
+  color: var(--viam-text, #f3f7fb);
+  text-align: center;
+}
+
+.empty-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--viam-empty-icon-border, rgba(139, 231, 255, 0.2));
+  border-radius: 999px;
+  background: var(--viam-empty-icon-bg, rgba(139, 231, 255, 0.1));
+  color: var(--viam-empty-icon-color, #8be7ff);
+}
+
+.empty-icon viam-icon {
+  --viam-icon-size: 24px;
+}
+
+.empty-copy {
+  display: grid;
+  gap: 6px;
+  max-width: 420px;
+  min-width: 0;
+}
+
+.empty-copy strong {
+  color: var(--viam-text, #f3f7fb);
+  font-size: 0.98rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.empty-copy p {
+  margin: 0;
+  color: var(--viam-text-muted, #8793a0);
+  font-size: 0.84rem;
+  line-height: 1.45;
+}

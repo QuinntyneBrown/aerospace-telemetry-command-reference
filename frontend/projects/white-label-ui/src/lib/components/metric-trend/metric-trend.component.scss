@@ -1,0 +1,21 @@
+:host {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--trend-color, var(--viam-success, #4fe3a4));
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+:host([data-tone='warning']) {
+  --trend-color: var(--viam-warning, #ffd166);
+}
+
+:host([data-tone='danger']) {
+  --trend-color: var(--viam-danger, #ff687e);
+}
+
+:host([data-tone='info']) {
+  --trend-color: var(--viam-info, #8be7ff);
+}

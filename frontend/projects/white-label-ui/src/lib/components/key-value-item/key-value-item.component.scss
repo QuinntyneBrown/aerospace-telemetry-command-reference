@@ -1,0 +1,29 @@
+:host {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+  padding: 9px 10px;
+  border: 1px solid var(--viam-card-divider, rgba(255, 255, 255, 0.07));
+  border-radius: 8px;
+  background: var(--viam-control-bg, rgba(255, 255, 255, 0.04));
+}
+
+span,
+strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+span {
+  color: var(--viam-text-muted, #8793a0);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+strong {
+  color: var(--viam-text, #f3f7fb);
+  font-size: 0.8rem;
+  font-weight: 800;
+}

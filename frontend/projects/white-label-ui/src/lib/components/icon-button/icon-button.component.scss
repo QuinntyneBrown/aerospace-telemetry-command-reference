@@ -1,0 +1,30 @@
+:host {
+  display: inline-flex;
+}
+
+.icon-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--viam-icon-button-size, 36px);
+  height: var(--viam-icon-button-size, 36px);
+  border: 0;
+  border-radius: var(--viam-icon-button-radius, 999px);
+  background: transparent;
+  color: var(--viam-icon-button-color, #c7d0da);
+  cursor: pointer;
+  transition:
+    background-color 160ms ease,
+    color 160ms ease;
+}
+
+.icon-button:hover:not(:disabled) {
+  background: var(--viam-control-hover, rgba(255, 255, 255, 0.08));
+  color: var(--viam-text, #f3f7fb);
+}
+
+.icon-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}

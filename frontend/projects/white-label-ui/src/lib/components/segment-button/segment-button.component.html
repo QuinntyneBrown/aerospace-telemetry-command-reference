@@ -1,0 +1,10 @@
+<button
+  class="segment"
+  type="button"
+  [class.active]="active"
+  [disabled]="disabled"
+  [attr.aria-pressed]="active"
+  (click)="selected.emit(value)"
+>
+  <ng-content>{{ label }}</ng-content>
+</button>

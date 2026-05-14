@@ -1,0 +1,31 @@
+<viam-md-card>
+  <div class="command-card">
+    <viam-card-title [title]="title" [subtitle]="subtitle" />
+    <viam-command-grid>
+      @for (command of commands; track command.value) {
+        <viam-command-button
+          [label]="command.label"
+          [icon]="command.icon"
+          [value]="command.value"
+          [color]="command.color || 'var(--viam-info, #8be7ff)'"
+          [disabled]="command.disabled || false"
+          (selected)="commandSelected.emit($event)"
+        />
+      }
+    </viam-command-grid>
+    <viam-command-footer>
+      <viam-key-value-group>
+        @for (item of keyValues; track item.label) {
+          <viam-key-value-item [label]="item.label" [value]="item.value" />
+        }
+      </viam-key-value-group>
+      @if (showArmAction) {
+        <viam-filled-tonal-button
+          icon="verified_user"
+          [label]="armLabel"
+          (clicked)="armClicked.emit($event)"
+        />
+      }
+    </viam-command-footer>
+  </div>
+</viam-md-card>

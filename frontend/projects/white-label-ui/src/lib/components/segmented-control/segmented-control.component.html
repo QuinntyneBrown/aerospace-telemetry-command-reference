@@ -1,0 +1,13 @@
+@if (options.length) {
+  @for (option of options; track option.value) {
+    <viam-segment-button
+      [label]="option.label"
+      [value]="option.value"
+      [active]="option.value === value"
+      [disabled]="option.disabled || false"
+      (selected)="valueChange.emit($event)"
+    />
+  }
+} @else {
+  <ng-content />
+}

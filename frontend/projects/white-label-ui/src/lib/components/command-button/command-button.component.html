@@ -1,0 +1,11 @@
+<button
+  class="command-button"
+  type="button"
+  [disabled]="disabled"
+  [attr.title]="label"
+  [style.--cmd-color]="color"
+  (click)="selected.emit(value)"
+>
+  <viam-icon [name]="icon" />
+  <span>{{ label }}</span>
+</button>

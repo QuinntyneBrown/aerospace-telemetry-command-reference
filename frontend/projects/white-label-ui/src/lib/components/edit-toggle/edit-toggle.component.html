@@ -1,0 +1,11 @@
+<label class="edit-toggle">
+  <input
+    type="checkbox"
+    [checked]="checked"
+    [disabled]="disabled"
+    [attr.aria-label]="ariaLabel || label"
+    (change)="onChange($event)"
+  />
+  <viam-switch-track [checked]="checked" />
+  <span>{{ label }}</span>
+</label>

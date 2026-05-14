@@ -1,0 +1,10 @@
+<form class="tile-add-form" (submit)="onSubmit($event)">
+  <viam-select-field
+    [options]="options"
+    [value]="value"
+    [disabled]="disabled"
+    ariaLabel="Available tiles"
+    (valueChange)="onValueChange($event)"
+  />
+  <viam-filled-tonal-button icon="add" label="Add" type="submit" [disabled]="disabled" />
+</form>

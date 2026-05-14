@@ -1,0 +1,19 @@
+<button
+  class="button"
+  [class.primary]="variant === 'primary'"
+  [class.tonal]="variant === 'tonal'"
+  [class.ghost]="variant === 'ghost'"
+  [class.danger]="variant === 'danger'"
+  [type]="type"
+  [disabled]="disabled"
+  [attr.aria-label]="ariaLabel || null"
+  (click)="clicked.emit($event)"
+>
+  @if (icon) {
+    <viam-icon [name]="icon" />
+  }
+  @if (label) {
+    <span>{{ label }}</span>
+  }
+  <ng-content />
+</button>

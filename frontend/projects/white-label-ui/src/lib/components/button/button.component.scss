@@ -1,0 +1,61 @@
+:host {
+  display: inline-flex;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 36px;
+  padding: 0 14px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease;
+}
+
+.button.primary {
+  border-color: var(--viam-button-primary-border, rgba(139, 231, 255, 0.28));
+  background: var(--viam-button-primary-bg, #8be7ff);
+  color: var(--viam-button-primary-color, #061019);
+}
+
+.button.tonal {
+  border-color: var(--viam-filled-border, rgba(139, 231, 255, 0.16));
+  background: var(--viam-filled-bg, rgba(139, 231, 255, 0.13));
+  color: var(--viam-filled-color, #dff7ff);
+}
+
+.button.ghost {
+  border-color: var(--viam-control-border, rgba(255, 255, 255, 0.1));
+  background: transparent;
+  color: var(--viam-text, #f3f7fb);
+}
+
+.button.danger {
+  border-color: var(--viam-button-danger-border, rgba(255, 104, 126, 0.24));
+  background: var(--viam-button-danger-bg, rgba(255, 104, 126, 0.12));
+  color: var(--viam-danger, #ff687e);
+}
+
+.button:hover:not(:disabled) {
+  background: var(--viam-control-hover, rgba(255, 255, 255, 0.1));
+}
+
+.button.primary:hover:not(:disabled) {
+  background: var(--viam-button-primary-hover, #b8f2ff);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

@@ -1,0 +1,10 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 68px;
+  padding: 14px 12px;
+  border-right: 1px solid var(--viam-shell-border, rgba(255, 255, 255, 0.08));
+  background: var(--viam-rail-bg, rgba(6, 11, 17, 0.72));
+}

@@ -1,0 +1,27 @@
+<div class="empty-state">
+  @if (icon) {
+    <div class="empty-icon" aria-hidden="true">
+      <viam-icon [name]="icon" />
+    </div>
+  }
+
+  <div class="empty-copy">
+    @if (title) {
+      <strong>{{ title }}</strong>
+    }
+    @if (description) {
+      <p>{{ description }}</p>
+    }
+    <ng-content />
+  </div>
+
+  @if (action) {
+    <viam-button
+      [label]="action.label"
+      [icon]="action.icon || ''"
+      [disabled]="action.disabled || false"
+      [ariaLabel]="action.ariaLabel || action.label"
+      (clicked)="actionSelected.emit(action.value)"
+    />
+  }
+</div>

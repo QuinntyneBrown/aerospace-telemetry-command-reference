@@ -1,0 +1,32 @@
+:host {
+  display: block;
+  min-width: 0;
+}
+
+.search {
+  display: grid;
+  grid-template-columns: 20px minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  min-width: min(260px, 100%);
+  min-height: 38px;
+  padding: 0 12px;
+  border: 1px solid var(--viam-control-border, rgba(255, 255, 255, 0.1));
+  border-radius: 999px;
+  background: var(--viam-control-bg, rgba(255, 255, 255, 0.04));
+  color: var(--viam-text-muted, #8793a0);
+}
+
+input {
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--viam-text, #f3f7fb);
+  font: inherit;
+  font-size: 0.83rem;
+}
+
+input::placeholder {
+  color: var(--viam-text-muted, #8793a0);
+}

@@ -1,0 +1,9 @@
+:host {
+  display: inline-flex;
+  justify-content: flex-end;
+  min-width: 44px;
+  color: var(--viam-text-muted, #8793a0);
+  font-size: 0.72rem;
+  font-weight: 700;
+  white-space: nowrap;
+}

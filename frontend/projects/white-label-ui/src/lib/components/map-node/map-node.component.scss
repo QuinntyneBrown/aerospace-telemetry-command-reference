@@ -1,0 +1,13 @@
+:host {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid color-mix(in srgb, var(--node-color, #8be7ff), transparent 46%);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--node-color, #8be7ff), transparent 86%);
+  color: var(--node-color, #8be7ff);
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,8 @@
+@if (title || subtitle) {
+  <viam-section-title [title]="title" [subtitle]="subtitle" />
+} @else {
+  <ng-content select="[section-title]" />
+}
+<div class="section-actions">
+  <ng-content />
+</div>

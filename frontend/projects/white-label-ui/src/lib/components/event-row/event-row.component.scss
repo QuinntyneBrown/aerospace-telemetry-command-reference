@@ -1,0 +1,37 @@
+:host {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  padding: 12px 16px;
+  border-top: 1px solid var(--viam-card-divider, rgba(255, 255, 255, 0.07));
+}
+
+:host:first-child {
+  border-top: 0;
+}
+
+.event-copy {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.event-copy strong,
+.event-copy span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.event-copy strong {
+  color: var(--viam-text, #f3f7fb);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.event-copy span {
+  color: var(--viam-text-muted, #8793a0);
+  font-size: 0.75rem;
+}

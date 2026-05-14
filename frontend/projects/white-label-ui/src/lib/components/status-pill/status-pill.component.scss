@@ -1,0 +1,26 @@
+:host {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 30px;
+  padding: 0 10px;
+  border: 1px solid var(--viam-pill-border, rgba(79, 227, 164, 0.24));
+  border-radius: 999px;
+  background: var(--viam-pill-bg, rgba(79, 227, 164, 0.1));
+  color: var(--viam-pill-color, #baf8d9);
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+:host([data-tone='warning']) {
+  --viam-pill-border: rgba(255, 209, 102, 0.28);
+  --viam-pill-bg: rgba(255, 209, 102, 0.1);
+  --viam-pill-color: #ffe6a8;
+}
+
+:host([data-tone='danger']) {
+  --viam-pill-border: rgba(255, 104, 126, 0.28);
+  --viam-pill-bg: rgba(255, 104, 126, 0.1);
+  --viam-pill-color: #ffc3cc;
+}

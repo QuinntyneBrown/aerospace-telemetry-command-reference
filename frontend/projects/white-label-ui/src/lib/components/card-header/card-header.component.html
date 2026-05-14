@@ -1,0 +1,8 @@
+@if (title || subtitle) {
+  <viam-card-title [title]="title" [subtitle]="subtitle" />
+} @else {
+  <ng-content select="[card-title]" />
+}
+<div class="card-actions">
+  <ng-content />
+</div>

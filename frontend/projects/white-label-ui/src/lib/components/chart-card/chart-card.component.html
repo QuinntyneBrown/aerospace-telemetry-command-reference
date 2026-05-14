@@ -1,0 +1,18 @@
+<viam-md-card>
+  <viam-card-header [title]="title" [subtitle]="subtitle">
+    @if (showOptions) {
+      <viam-icon-button
+        icon="more_vert"
+        title="Chart options"
+        ariaLabel="Chart options"
+        (clicked)="optionsClicked.emit($event)"
+      />
+    }
+  </viam-card-header>
+  <viam-chart-body [compact]="compact">
+    <ng-content />
+    @if (showCanvas) {
+      <canvas [attr.aria-label]="ariaLabel || title + ' chart'" role="img"></canvas>
+    }
+  </viam-chart-body>
+</viam-md-card>

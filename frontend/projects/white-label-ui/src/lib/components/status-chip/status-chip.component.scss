@@ -1,0 +1,16 @@
+:host {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  min-height: 24px;
+  padding: 0 10px;
+  border: 1px solid color-mix(in srgb, var(--chip-color, #8be7ff), transparent 58%);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--chip-color, #8be7ff), transparent 88%);
+  color: color-mix(in srgb, var(--chip-color, #8be7ff), white 18%);
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+}

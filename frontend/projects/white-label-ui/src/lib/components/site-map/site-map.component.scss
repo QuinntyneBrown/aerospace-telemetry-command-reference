@@ -1,0 +1,25 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+.muted {
+  color: var(--viam-text-muted, #8793a0);
+  font-size: 0.76rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.site-map {
+  position: relative;
+  min-height: var(--viam-map-height, 224px);
+  margin: 0 16px 16px;
+  overflow: hidden;
+  border: 1px solid var(--viam-card-divider, rgba(255, 255, 255, 0.08));
+  border-radius: 8px;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    var(--viam-map-bg, rgba(255, 255, 255, 0.03));
+  background-size: 28px 28px;
+}

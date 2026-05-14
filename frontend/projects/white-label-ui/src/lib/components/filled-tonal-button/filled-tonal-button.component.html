@@ -1,0 +1,13 @@
+<button
+  class="filled-tonal"
+  [type]="type"
+  [disabled]="disabled"
+  [attr.aria-label]="ariaLabel || null"
+  (click)="clicked.emit($event)"
+>
+  @if (icon) {
+    <viam-icon [name]="icon" />
+  }
+  <span>{{ label }}</span>
+  <ng-content />
+</button>

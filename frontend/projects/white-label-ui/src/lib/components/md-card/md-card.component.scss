@@ -1,0 +1,11 @@
+:host {
+  display: block;
+  min-width: 0;
+  height: 100%;
+  border: 1px solid var(--viam-card-border, rgba(255, 255, 255, 0.1));
+  border-radius: var(--viam-card-radius, 8px);
+  background: var(--viam-card-bg, rgba(18, 27, 36, 0.9));
+  box-shadow: var(--viam-card-shadow, 0 18px 40px rgba(0, 0, 0, 0.2));
+  color: var(--viam-text, #f3f7fb);
+  overflow: hidden;
+}

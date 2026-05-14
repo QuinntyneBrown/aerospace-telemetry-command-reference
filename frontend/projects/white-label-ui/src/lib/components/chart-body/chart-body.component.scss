@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  height: var(--viam-chart-height, 220px);
+  padding: 4px 12px 14px;
+}
+
+:host(.compact) {
+  --viam-chart-height: 174px;
+}
+
+:host ::ng-deep canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
