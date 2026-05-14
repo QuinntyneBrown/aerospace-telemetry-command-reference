@@ -12,6 +12,14 @@ The reference app should show three versions of the same platform:
 
 The goal is to demonstrate how one underlying platform can be branded, themed, and extended for different customers without changing the core telemetry and command infrastructure.
 
+## Repository Purpose
+
+This repository provides guidance for structuring Angular libraries so a company can build one reusable white-label dashboard product and ship multiple branded versions from the same foundation.
+
+The architecture should make it clear which parts of the product are shared platform capabilities and which parts are tenant- or brand-specific extensions. Shared libraries should contain the core dashboard shell, telemetry models, command workflows, authentication and authorization patterns, layout system, tile framework, and reusable UI primitives. Branded libraries should layer on customer-specific themes, terminology, telemetry streams, commands, dashboard tiles, workflows, and feature customizations.
+
+The intended outcome is not just a set of separate dashboards. It is a reference structure for composing branded Angular applications from shared product libraries while still allowing each brand to feel purpose-built for its market and operational needs.
+
 ## Mock Case Study Anchor
 
 Use one real company from the research as a public reference point for the type of platform being modeled.
