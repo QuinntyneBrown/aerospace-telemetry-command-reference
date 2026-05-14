@@ -9101,3 +9101,1191 @@ warn: Microsoft.EntityFrameworkCore.Update[10001]
       The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
 warn: Microsoft.EntityFrameworkCore.Update[10001]
       The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 24 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 16 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 30 entities to in-memory store.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'Machine.Position#GeoPosition' and 'TelemetrySample.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.
+warn: Microsoft.EntityFrameworkCore.Update[10001]
+      The same entity is being tracked as different entity types 'TelemetrySample.Position#GeoPosition' and 'Machine.Position#GeoPosition' with defining navigations. If a property value changes, it will result in two store changes, which might not be the desired outcome.

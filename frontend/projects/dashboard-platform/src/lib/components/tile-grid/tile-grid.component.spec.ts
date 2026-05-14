@@ -36,7 +36,12 @@ class FakeLayoutPersistenceService implements IDashboardLayoutPersistenceService
   );
   readonly removeTile = vi.fn((_: DashboardLayout, _placementId: string) => this.layout);
   readonly resizeTile = vi.fn(
-    (_: DashboardLayout, _placementId: string, _size: DashboardTileSize) => this.layout,
+    (layout: DashboardLayout, placementId: string, size: DashboardTileSize) => ({
+      ...layout,
+      tiles: layout.tiles.map((placement) =>
+        placement.id === placementId ? { ...placement, size } : placement,
+      ),
+    }),
   );
 }
 
@@ -53,7 +58,11 @@ describe('TileGridComponent', () => {
     label: 'Grid Layout',
     columns: 12,
     density: 'comfortable',
-    tiles: [{ id: 'metric-placement', tileId: 'metric', size: 'medium', order: 0 }],
+    tiles: [
+      { id: 'metric-placement', tileId: 'metric', size: 'wide', order: 0 },
+      { id: 'metric-placement-2', tileId: 'metric', size: 'medium', order: 1 },
+      { id: 'metric-placement-3', tileId: 'metric', size: 'small', order: 2 },
+    ],
     metadata: {},
   };
   let persistence: FakeLayoutPersistenceService;
@@ -108,6 +117,37 @@ describe('TileGridComponent', () => {
     expect(persistence.addTile).toHaveBeenCalledWith(layout, 'metric', 'medium');
     expect(persistence.removeTile).toHaveBeenCalledWith(layout, 'metric-placement');
     expect(persistence.resizeTile).toHaveBeenCalledWith(layout, 'metric-placement', 'wide');
+  });
+
+  it('shows each tile size selector with the current placement size', () => {
+    harness.setEditMode(true);
+    fixture.detectChanges();
+
+    const sizeSelectors = [
+      ...fixture.nativeElement.querySelectorAll('select[aria-label^="Resize"]'),
+    ] as HTMLSelectElement[];
+
+    expect(sizeSelectors.map((selector) => selector.value)).toEqual(['wide', 'medium', 'small']);
+  });
+
+  it('updates the tile size selector value after resizing a placement', () => {
+    harness.setEditMode(true);
+    fixture.detectChanges();
+
+    const sizeSelector = fixture.nativeElement.querySelector(
+      'select[aria-label="Resize Metric"]',
+    ) as HTMLSelectElement;
+
+    sizeSelector.value = 'full';
+    sizeSelector.dispatchEvent(new Event('change'));
+    fixture.detectChanges();
+
+    expect(persistence.resizeTile).toHaveBeenCalledWith(layout, 'metric-placement', 'full');
+    expect(
+      (fixture.nativeElement.querySelector(
+        'select[aria-label="Resize Metric"]',
+      ) as HTMLSelectElement).value,
+    ).toBe('full');
   });
 
   it('shows registered tile options only after edit mode is enabled', () => {
