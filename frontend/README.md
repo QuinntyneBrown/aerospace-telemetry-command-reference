@@ -1,59 +1,36 @@
 # Frontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+Angular reference implementation for a white-label robotics dashboard. The workspace demonstrates one shared dashboard platform composed into three independently branded applications.
 
-## Development server
+## Applications
 
-To start a local development server, run:
+- `white-label-operations-console`: neutral Viam reference console.
+- `harborlift-robotics`: HarborLift logistics robotics dashboard.
+- `terragrid-autonomy`: TerraGrid field robotics dashboard.
 
-```bash
-ng serve
-```
+## Libraries
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- `white-label-ui`: dumb presentation components with inputs and outputs only.
+- `dashboard-platform`: shared shell, tile grid, edit mode, Chart.js wrapper, telemetry adapter, command dispatch contract, and layout persistence.
+- `white-label-dashboard`: neutral tenant configuration, tiles, commands, telemetry streams, navigation, and layout.
+- `harborlift-dashboard`: HarborLift brand, logistics terminology, telemetry, commands, tiles, navigation, and layout.
+- `terragrid-dashboard`: TerraGrid brand, field robotics terminology, telemetry, commands, tiles, navigation, and layout.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Commands
 
 ```bash
-ng generate --help
+npx ng build white-label-ui
+npx ng build dashboard-platform
+npx ng build white-label-dashboard
+npx ng build harborlift-dashboard
+npx ng build terragrid-dashboard
+npx ng build white-label-operations-console
+npx ng build harborlift-robotics
+npx ng build terragrid-autonomy
 ```
 
-## Building
-
-To build the project run:
+Serve an app with:
 
 ```bash
-ng build
+npx ng serve white-label-operations-console
 ```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.

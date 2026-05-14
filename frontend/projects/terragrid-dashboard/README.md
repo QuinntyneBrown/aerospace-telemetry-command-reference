@@ -1,8 +1,8 @@
 # terragrid-dashboard
 
-Type: Angular library scaffold
+Type: Angular library
 
-This library holds TerraGrid Autonomy dashboard configuration and extensions. It demonstrates how a branded field robotics dashboard can layer domain-specific features on top of the shared platform.
+This library holds TerraGrid Autonomy dashboard configuration and extensions. It layers field robotics brand, telemetry, commands, terminology, tiles, and layout on top of the shared platform.
 
 ## Belongs Here
 
@@ -22,7 +22,7 @@ This library holds TerraGrid Autonomy dashboard configuration and extensions. It
 
 ## Expected Consumer
 
-`terragrid-autonomy` should consume this library plus `dashboard-platform`.
+`terragrid-autonomy` consumes this library plus `dashboard-platform`.
 
 Use `white-label-ui` for dumb reusable presentation components. Create a TerraGrid-specific UI library only if TerraGrid needs reusable visual components that cannot be expressed through theme tokens and configuration.
 

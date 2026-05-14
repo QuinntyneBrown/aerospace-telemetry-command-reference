@@ -1,0 +1,6 @@
+<viam-fleet-table
+  [title]="definition.label"
+  [subtitle]="subtitle"
+  [rows]="(rows$ | async) ?? []"
+  [showOpenAction]="false"
+/>

@@ -1,1 +1,1 @@
-export const harborliftDashboardProject = 'harborlift-dashboard';
+export * from './lib/harborlift-dashboard.providers';

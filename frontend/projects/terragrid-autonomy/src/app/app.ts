@@ -1,12 +1,10 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import { DashboardShellComponent } from 'dashboard-platform';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [DashboardShellComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
-export class App {
-  protected readonly title = signal('terragrid-autonomy');
-}
+export class App {}

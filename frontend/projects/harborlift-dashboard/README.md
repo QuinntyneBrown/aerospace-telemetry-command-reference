@@ -1,8 +1,8 @@
 # harborlift-dashboard
 
-Type: Angular library scaffold
+Type: Angular library
 
-This library holds HarborLift Robotics dashboard configuration and extensions. It demonstrates how a branded logistics dashboard can layer brand-specific features on top of the shared platform.
+This library holds HarborLift Robotics dashboard configuration and extensions. It layers logistics-specific brand, telemetry, commands, terminology, tiles, and layout on top of the shared platform.
 
 ## Belongs Here
 
@@ -22,7 +22,7 @@ This library holds HarborLift Robotics dashboard configuration and extensions. I
 
 ## Expected Consumer
 
-`harborlift-robotics` should consume this library plus `dashboard-platform`.
+`harborlift-robotics` consumes this library plus `dashboard-platform`.
 
 Use `white-label-ui` for dumb reusable presentation components. Create a HarborLift-specific UI library only if HarborLift needs reusable visual components that cannot be expressed through theme tokens and configuration.
 

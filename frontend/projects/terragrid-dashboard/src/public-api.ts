@@ -1,1 +1,1 @@
-export const terragridDashboardProject = 'terragrid-dashboard';
+export * from './lib/terragrid-dashboard.providers';

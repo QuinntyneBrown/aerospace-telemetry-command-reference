@@ -1,0 +1,7 @@
+<header class="topbar">
+  <viam-brand-mark [mark]="tenant.logoText" [ariaLabel]="tenant.displayName + ' mark'" />
+  <viam-brand-meta [name]="tenant.displayName" [description]="tenant.productName" />
+  <viam-status-pill label="Mesh nominal" icon="radio_button_checked" tone="success" />
+  <div class="topbar-spacer"></div>
+  <span class="product-copy">{{ tenant.description }}</span>
+</header>

@@ -1,0 +1,8 @@
+<viam-command-center
+  [title]="definition.label"
+  [subtitle]="definition.description || 'Commands registered by this dashboard'"
+  [commands]="commands"
+  [keyValues]="keyValues"
+  armLabel="Authorize"
+  (commandSelected)="onCommandSelected($event)"
+/>

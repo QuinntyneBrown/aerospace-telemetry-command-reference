@@ -1,0 +1,76 @@
+<section class="tile-grid-shell" data-testid="tile-grid" [attr.data-density]="layout().density">
+  <header class="tile-grid-toolbar">
+    <div class="toolbar-copy">
+      <h1>{{ layout().label }}</h1>
+      <span>{{ tileOptions.length }} registered tiles</span>
+    </div>
+
+    <viam-edit-toggle
+      label="Edit"
+      ariaLabel="Toggle dashboard edit mode"
+      [checked]="editMode()"
+      (checkedChange)="setEditMode($event)"
+    />
+  </header>
+
+  @if (editMode()) {
+    <viam-tile-edit-controls>
+      <viam-tile-add-form
+        [options]="tileOptions"
+        [value]="selectedTileId()"
+        [disabled]="tileOptions.length === 0"
+        (valueChange)="onSelectedTileChange($event)"
+        (tileAdded)="onTileAdded($event)"
+      />
+      <viam-tile-control
+        icon="restart_alt"
+        title="Reset layout"
+        ariaLabel="Reset layout"
+        (clicked)="resetLayout()"
+      />
+    </viam-tile-edit-controls>
+  }
+
+  @if (orderedPlacements.length === 0) {
+    <viam-empty-state
+      icon="dashboard_customize"
+      title="No dashboard tiles"
+      description="Turn on edit mode to add a tile from the registered catalog."
+    />
+  } @else {
+    <div class="tile-grid">
+      @for (placement of orderedPlacements; track placement.id) {
+        @let definition = tileFor(placement);
+        @if (definition) {
+          <viam-dashboard-tile
+            [size]="placement.size"
+            [ariaLabel]="definition.label"
+            [attr.data-tile-id]="definition.id"
+            [attr.data-placement-id]="placement.id"
+          >
+            @if (editMode()) {
+              <div class="tile-controls">
+                <viam-tile-size-select
+                  [size]="placement.size"
+                  [ariaLabel]="'Resize ' + definition.label"
+                  (sizeChange)="onTileResized(placement.id, $event)"
+                />
+                <viam-tile-control
+                  icon="close"
+                  title="Remove tile"
+                  [ariaLabel]="'Remove ' + definition.label"
+                  danger
+                  (clicked)="onTileRemoved(placement.id)"
+                />
+              </div>
+            }
+
+            <ng-container
+              *ngComponentOutlet="definition.component; inputs: tileInputs(definition)"
+            />
+          </viam-dashboard-tile>
+        }
+      }
+    </div>
+  }
+</section>

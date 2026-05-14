@@ -1,8 +1,8 @@
 # dashboard-platform
 
-Type: Angular library scaffold
+Type: Angular library
 
-This is the single shared platform library for the dashboard product. It exists to keep the repo simple while still demonstrating the white-label architecture.
+This is the shared runtime library for the dashboard product. It owns the reusable shell, tile grid, edit mode behavior, service contracts, default runtime services, Chart.js wrapper, telemetry adapter, and command dispatch integration.
 
 ## Belongs Here
 
@@ -21,7 +21,7 @@ This is the single shared platform library for the dashboard product. It exists 
 
 ## Expected Consumers
 
-All three apps should eventually depend on this library:
+All three apps depend on this library:
 
 - `white-label-operations-console`
 - `harborlift-robotics`
@@ -29,7 +29,7 @@ All three apps should eventually depend on this library:
 
 The dashboard-specific libraries should also depend on this library.
 
-`dashboard-platform` can consume `white-label-ui` for dumb reusable presentation components.
+`dashboard-platform` consumes `white-label-ui` for dumb reusable presentation components and consumes runtime services through interface-backed injection tokens.
 
 ## Commands
 

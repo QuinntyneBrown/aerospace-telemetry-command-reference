@@ -1,8 +1,8 @@
 # white-label-dashboard
 
-Type: Angular library scaffold
+Type: Angular library
 
-This library holds the neutral white-label dashboard configuration. It demonstrates how the shared platform is composed before customer-specific branding is applied.
+This library holds the neutral Viam reference dashboard configuration. It demonstrates how the shared platform is composed before customer-specific branding is applied.
 
 ## Belongs Here
 
@@ -22,7 +22,7 @@ This library holds the neutral white-label dashboard configuration. It demonstra
 
 ## Expected Consumer
 
-`white-label-operations-console` should consume this library plus `dashboard-platform`.
+`white-label-operations-console` consumes this library plus `dashboard-platform`.
 
 Use `white-label-ui` for dumb reusable presentation components.
 

@@ -1,0 +1,30 @@
+:host {
+  display: block;
+  min-height: 100dvh;
+}
+
+.dashboard-shell {
+  min-height: 100dvh;
+  color: var(--viam-text, #f3f7fb);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 22rem),
+    var(--viam-background, #060b11);
+}
+
+.dashboard-body {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 18px;
+  padding: 0 20px 24px;
+}
+
+.dashboard-main {
+  min-width: 0;
+}
+
+@media (max-width: 820px) {
+  .dashboard-body {
+    grid-template-columns: 1fr;
+    padding-inline: 12px;
+  }
+}

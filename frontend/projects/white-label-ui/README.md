@@ -1,6 +1,6 @@
 # white-label-ui
 
-Type: Angular library scaffold
+Type: Angular library
 
 This library is for simple reusable presentation components. These should be dumb components: inputs in, events out, no dashboard business rules.
 
@@ -31,7 +31,7 @@ Create a branded UI library later only if a brand has reusable dumb components t
 
 ## Expected Consumers
 
-`dashboard-platform` should use this library for reusable presentation components. Dashboard-specific libraries can also use it when defining branded tiles and workflows.
+`dashboard-platform` uses this library for reusable presentation components. Dashboard-specific libraries can also use it when defining branded tiles and workflows.
 
 ## Commands
 

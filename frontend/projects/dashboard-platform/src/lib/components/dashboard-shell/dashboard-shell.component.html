@@ -1,0 +1,29 @@
+<div
+  class="dashboard-shell"
+  [style.--viam-primary]="tenant.theme.palette.primary"
+  [style.--viam-on-primary]="tenant.theme.palette.onPrimary"
+  [style.--viam-secondary]="tenant.theme.palette.secondary"
+  [style.--viam-accent]="tenant.theme.palette.accent"
+  [style.--viam-success]="tenant.theme.palette.success"
+  [style.--viam-warning]="tenant.theme.palette.warning"
+  [style.--viam-danger]="tenant.theme.palette.danger"
+  [style.--viam-background]="tenant.theme.palette.background"
+  [style.--viam-surface]="tenant.theme.palette.surface"
+  [style.--viam-surface-alt]="tenant.theme.palette.surfaceAlt"
+  [style.--viam-border]="tenant.theme.palette.border"
+  [style.--viam-text]="tenant.theme.palette.text"
+  [style.--viam-muted]="tenant.theme.palette.textMuted"
+  [style.--viam-radius-small]="tenant.theme.radii.small"
+  [style.--viam-radius-medium]="tenant.theme.radii.medium"
+  [style.--viam-radius-large]="tenant.theme.radii.large"
+  [style.--viam-radius-pill]="tenant.theme.radii.pill"
+  [style.fontFamily]="tenant.theme.typography.fontFamily"
+>
+  <viam-platform-top-app-bar [tenant]="tenant" />
+  <div class="dashboard-body">
+    <viam-platform-side-navigation [navigationItems]="navigationItems" />
+    <main class="dashboard-main">
+      <viam-platform-tile-grid />
+    </main>
+  </div>
+</div>

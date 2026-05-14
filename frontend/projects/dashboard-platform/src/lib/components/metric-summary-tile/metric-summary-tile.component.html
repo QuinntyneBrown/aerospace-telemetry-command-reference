@@ -1,0 +1,11 @@
+<div class="metric-grid">
+  @for (metric of metrics; track metric.label) {
+    <viam-metric-card
+      [label]="metric.label"
+      [value]="metric.value"
+      [trend]="metric.trend || ''"
+      [icon]="metric.icon || 'monitoring'"
+      [color]="metric.color || 'var(--viam-info, #8be7ff)'"
+    />
+  }
+</div>

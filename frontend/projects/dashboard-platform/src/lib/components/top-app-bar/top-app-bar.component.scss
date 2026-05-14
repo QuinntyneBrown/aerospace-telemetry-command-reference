@@ -1,0 +1,36 @@
+:host {
+  display: block;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 66px;
+  padding: 0 20px;
+  border-bottom: 1px solid var(--viam-shell-border, rgba(255, 255, 255, 0.08));
+  background: var(--viam-shell-topbar-bg, rgba(6, 11, 17, 0.88));
+  backdrop-filter: blur(14px);
+}
+
+.topbar-spacer {
+  flex: 1;
+}
+
+.product-copy {
+  max-width: 360px;
+  overflow: hidden;
+  color: var(--viam-text-muted, #8793a0);
+  font-size: 0.78rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+  .product-copy {
+    display: none;
+  }
+}
