@@ -21,11 +21,15 @@ describe(ViamEmptyStateComponent.name, () => {
     fixture.detectChanges();
 
     expect(fixture.nativeElement.textContent).toContain('No machines selected');
-    expect(fixture.nativeElement.textContent).toContain('Choose a machine to inspect its telemetry.');
+    expect(fixture.nativeElement.textContent).toContain(
+      'Choose a machine to inspect its telemetry.',
+    );
     expect(fixture.nativeElement.querySelector('.empty-icon viam-icon')?.textContent.trim()).toBe(
       'inventory_2',
     );
-    expect(fixture.nativeElement.querySelector('viam-button')?.textContent).toContain('Choose machine');
+    expect(fixture.nativeElement.querySelector('viam-button')?.textContent).toContain(
+      'Choose machine',
+    );
   });
 
   it('emits the configured action value', async () => {

@@ -17,7 +17,9 @@ describe(ViamIconButtonComponent.name, () => {
     const button: HTMLButtonElement = fixture.nativeElement.querySelector('button');
 
     expect(button.getAttribute('aria-label')).toBe('Notifications');
-    expect(fixture.nativeElement.querySelector('viam-icon')?.textContent.trim()).toBe('notifications');
+    expect(fixture.nativeElement.querySelector('viam-icon')?.textContent.trim()).toBe(
+      'notifications',
+    );
   });
 
   it('emits click intent only when enabled', async () => {
