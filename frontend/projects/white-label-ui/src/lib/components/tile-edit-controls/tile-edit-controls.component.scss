@@ -1,9 +1,16 @@
 :host {
-  position: absolute;
   z-index: 2;
-  top: 8px;
-  right: 8px;
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 6px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-width: 0;
+}
+
+@media (max-width: 640px) {
+  :host {
+    justify-content: stretch;
+    width: 100%;
+  }
 }

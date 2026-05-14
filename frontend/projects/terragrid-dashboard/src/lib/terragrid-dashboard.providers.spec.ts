@@ -44,4 +44,28 @@ describe('provideTerraGridDashboard', () => {
     expect(text).not.toContain('dock');
     expect(text).not.toContain('AMR');
   });
+
+  it('maps telemetry-backed tiles to registered field streams', () => {
+    const streams = new Set(TestBed.inject(TELEMETRY_STREAMS).map((stream) => stream.id));
+    const tileStreams = TestBed.inject(DASHBOARD_TILES).flatMap((tile) => [
+      ...(tile.requiredTelemetryStreams ?? []),
+      ...(((tile.metadata?.['metrics'] as readonly { streamId?: string }[] | undefined) ?? [])
+        .map((metric) => metric.streamId)
+        .filter((streamId): streamId is string => Boolean(streamId))),
+    ]);
+
+    expect(tileStreams).toEqual(
+      expect.arrayContaining([
+        'field-coverage',
+        'gps-route-progress',
+        'payloads-ready',
+        'hazard-markers',
+        'wind-speed',
+        'terrain-state',
+        'battery-state',
+        'drive-temperature',
+      ]),
+    );
+    expect(tileStreams.filter((streamId) => !streams.has(streamId))).toEqual([]);
+  });
 });

@@ -1,9 +1,11 @@
 <div class="metric-grid">
-  @for (metric of metrics; track metric.label) {
+  @for (metric of (metrics$ | async) ?? []; track metric.label) {
     <viam-metric-card
       [label]="metric.label"
       [value]="metric.value"
       [trend]="metric.trend || ''"
+      [trendIcon]="metric.trendIcon || 'trending_up'"
+      [tone]="metric.tone || 'success'"
       [icon]="metric.icon || 'monitoring'"
       [color]="metric.color || 'var(--viam-info, #8be7ff)'"
     />

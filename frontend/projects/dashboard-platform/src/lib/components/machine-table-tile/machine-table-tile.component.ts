@@ -22,7 +22,10 @@ export class MachineTableTileComponent {
   protected readonly rows$ = this.telemetry
     .machines()
     .pipe(
-      map((machines) => this.configuredRows() ?? machines.map((machine) => this.toRow(machine))),
+      map((machines) => {
+        const liveRows = machines.map((machine) => this.toRow(machine));
+        return liveRows.length > 0 ? liveRows : (this.configuredRows() ?? []);
+      }),
     );
 
   protected get subtitle(): string {

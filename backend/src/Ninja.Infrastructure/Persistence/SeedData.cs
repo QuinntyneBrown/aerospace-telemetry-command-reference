@@ -84,11 +84,18 @@ public static class SeedData
             Stream(HarborLiftTenantId, "aisle-congestion", "Aisle congestion", "%", "number"),
             Stream(HarborLiftTenantId, "route-blockage", "Route blockage", "alerts", "number"),
             Stream(HarborLiftTenantId, "charging-queue-depth", "Charging queue depth", "AMRs", "number"),
+            Stream(HarborLiftTenantId, "charging-wait-minutes", "Charging wait", "min", "number"),
             Stream(HarborLiftTenantId, "container-move-progress", "Container move progress", "%", "number"),
+            Stream(HarborLiftTenantId, "container-throughput", "Container throughput", "moves/hr", "number"),
             Stream(HarborLiftTenantId, "handoff-status", "Handoff status", "", "text"),
 
             Stream(TerraGridTenantId, "gps-route-progress", "GPS route progress", "%", "number"),
             Stream(TerraGridTenantId, "field-coverage", "Field coverage", "%", "number"),
+            Stream(TerraGridTenantId, "inspection-progress", "Inspection progress", "%", "number"),
+            Stream(TerraGridTenantId, "battery-state", "Battery state", "%", "number"),
+            Stream(TerraGridTenantId, "drive-temperature", "Drive temperature", "C", "number"),
+            Stream(TerraGridTenantId, "wind-speed", "Wind speed", "mph", "number"),
+            Stream(TerraGridTenantId, "payloads-ready", "Payloads ready", "", "number"),
             Stream(TerraGridTenantId, "weather-conditions", "Weather conditions", "", "text"),
             Stream(TerraGridTenantId, "terrain-state", "Terrain state", "", "text"),
             Stream(TerraGridTenantId, "payload-state", "Payload state", "", "text"),
@@ -185,10 +192,23 @@ public static class SeedData
         [
             Sample(WhiteLabelTenantId, Guid.Parse("20000000-0000-0000-0000-000000000001"), "fleet-health", "fleet.health", 94, null, now.AddMinutes(-1)),
             Sample(WhiteLabelTenantId, Guid.Parse("20000000-0000-0000-0000-000000000002"), "telemetry-ingest", "ingest.rate", 510, null, now.AddMinutes(-1)),
+            Sample(WhiteLabelTenantId, Guid.Parse("20000000-0000-0000-0000-000000000001"), "command-latency", "command.latency.p95", 156, null, now.AddMinutes(-1)),
+            Sample(WhiteLabelTenantId, Guid.Parse("20000000-0000-0000-0000-000000000002"), "battery-state", "battery.percent", 24, null, now.AddMinutes(-1)),
             Sample(HarborLiftTenantId, Guid.Parse("20000000-0000-0000-0000-000000000101"), "container-move-progress", "move.progress", 63, null, now.AddMinutes(-1)),
             Sample(HarborLiftTenantId, Guid.Parse("20000000-0000-0000-0000-000000000102"), "dock-utilization", "dock.utilization", 78, null, now.AddMinutes(-1)),
+            Sample(HarborLiftTenantId, Guid.Parse("20000000-0000-0000-0000-000000000101"), "container-throughput", "move.throughput", 42, null, now.AddMinutes(-1)),
+            Sample(HarborLiftTenantId, Guid.Parse("20000000-0000-0000-0000-000000000102"), "aisle-congestion", "aisle.congestion", 28, null, now.AddMinutes(-1)),
+            Sample(HarborLiftTenantId, Guid.Parse("20000000-0000-0000-0000-000000000101"), "charging-queue-depth", "charging.queue.depth", 4, null, now.AddMinutes(-1)),
+            Sample(HarborLiftTenantId, Guid.Parse("20000000-0000-0000-0000-000000000102"), "charging-wait-minutes", "charging.wait.minutes", 11, null, now.AddMinutes(-1)),
+            Sample(HarborLiftTenantId, Guid.Parse("20000000-0000-0000-0000-000000000101"), "route-blockage", "route.blockage.count", 3, null, now.AddMinutes(-1)),
             Sample(TerraGridTenantId, Guid.Parse("20000000-0000-0000-0000-000000000201"), "field-coverage", "coverage.percent", 42, null, now.AddMinutes(-1)),
-            Sample(TerraGridTenantId, Guid.Parse("20000000-0000-0000-0000-000000000202"), "gps-route-progress", "route.progress", 57, null, now.AddMinutes(-1))
+            Sample(TerraGridTenantId, Guid.Parse("20000000-0000-0000-0000-000000000202"), "gps-route-progress", "route.progress", 57, null, now.AddMinutes(-1)),
+            Sample(TerraGridTenantId, Guid.Parse("20000000-0000-0000-0000-000000000201"), "inspection-progress", "inspection.progress", 61, null, now.AddMinutes(-1)),
+            Sample(TerraGridTenantId, Guid.Parse("20000000-0000-0000-0000-000000000202"), "battery-state", "battery.percent", 59, null, now.AddMinutes(-1)),
+            Sample(TerraGridTenantId, Guid.Parse("20000000-0000-0000-0000-000000000201"), "drive-temperature", "drive.temperature", 38, null, now.AddMinutes(-1)),
+            Sample(TerraGridTenantId, Guid.Parse("20000000-0000-0000-0000-000000000202"), "wind-speed", "weather.wind", 17, null, now.AddMinutes(-1)),
+            Sample(TerraGridTenantId, Guid.Parse("20000000-0000-0000-0000-000000000201"), "payloads-ready", "payloads.ready", 5, null, now.AddMinutes(-1)),
+            Sample(TerraGridTenantId, Guid.Parse("20000000-0000-0000-0000-000000000202"), "hazard-markers", "hazard.marker.count", 4, null, now.AddMinutes(-1))
         ];
     }
 

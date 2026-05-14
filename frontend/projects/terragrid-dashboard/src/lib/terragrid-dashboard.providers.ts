@@ -105,6 +105,45 @@ export const TERRAGRID_TELEMETRY_STREAMS: readonly TelemetryStreamDefinition[] =
     color: '#9be15d',
   },
   {
+    id: 'inspection-progress',
+    label: 'Inspection progress',
+    valueType: 'number',
+    unit: '%',
+    icon: 'saved_search',
+    color: '#f0abfc',
+  },
+  {
+    id: 'battery-state',
+    label: 'Battery state',
+    valueType: 'number',
+    unit: '%',
+    icon: 'battery_5_bar',
+    color: '#9be15d',
+  },
+  {
+    id: 'drive-temperature',
+    label: 'Drive temperature',
+    valueType: 'number',
+    unit: 'C',
+    icon: 'device_thermostat',
+    color: '#f59e0b',
+  },
+  {
+    id: 'wind-speed',
+    label: 'Wind speed',
+    valueType: 'number',
+    unit: 'mph',
+    icon: 'air',
+    color: '#f59e0b',
+  },
+  {
+    id: 'payloads-ready',
+    label: 'Payloads ready',
+    valueType: 'number',
+    icon: 'science',
+    color: '#f0abfc',
+  },
+  {
     id: 'weather-conditions',
     label: 'Weather conditions',
     valueType: 'json',
@@ -189,10 +228,38 @@ export const TERRAGRID_TILES: readonly DashboardTileDefinition[] = [
     defaultSize: 'wide',
     metadata: {
       metrics: [
-        { label: 'Coverage', value: '68%', trend: '+11%', icon: 'grid_on', color: '#9be15d' },
-        { label: 'Route progress', value: '74%', trend: '+8%', icon: 'route', color: '#67e8f9' },
-        { label: 'Payloads ready', value: '5', trend: 'steady', icon: 'science', color: '#f0abfc' },
-        { label: 'Open hazards', value: '4', trend: '+1', icon: 'warning', color: '#f43f5e' },
+        {
+          label: 'Coverage',
+          value: '68%',
+          trend: '+11%',
+          icon: 'grid_on',
+          color: '#9be15d',
+          streamId: 'field-coverage',
+        },
+        {
+          label: 'Route progress',
+          value: '74%',
+          trend: '+8%',
+          icon: 'route',
+          color: '#67e8f9',
+          streamId: 'gps-route-progress',
+        },
+        {
+          label: 'Payloads ready',
+          value: '5',
+          trend: 'steady',
+          icon: 'science',
+          color: '#f0abfc',
+          streamId: 'payloads-ready',
+        },
+        {
+          label: 'Open hazards',
+          value: '4',
+          trend: '+1',
+          icon: 'warning',
+          color: '#f43f5e',
+          streamId: 'hazard-markers',
+        },
       ],
     },
   },
@@ -217,13 +284,21 @@ export const TERRAGRID_TILES: readonly DashboardTileDefinition[] = [
     defaultSize: 'small',
     metadata: {
       metrics: [
-        { label: 'Wind', value: '17 mph', trend: '+4', icon: 'air', color: '#f59e0b' },
+        {
+          label: 'Wind',
+          value: '17 mph',
+          trend: '+4',
+          icon: 'air',
+          color: '#f59e0b',
+          streamId: 'wind-speed',
+        },
         {
           label: 'Terrain',
           value: 'Firm',
           trend: 'north ridge soft',
           icon: 'terrain',
           color: '#a3e635',
+          streamId: 'terrain-state',
         },
       ],
     },
@@ -268,6 +343,7 @@ export const TERRAGRID_TILES: readonly DashboardTileDefinition[] = [
     label: 'Hazard Markers',
     component: EventStreamTileComponent,
     defaultSize: 'medium',
+    requiredTelemetryStreams: ['hazard-markers', 'terrain-state', 'weather-conditions'],
     metadata: { events: hazardEvents },
   },
   {
@@ -275,6 +351,7 @@ export const TERRAGRID_TILES: readonly DashboardTileDefinition[] = [
     label: 'Inspection Progress',
     component: TelemetryChartTileComponent,
     defaultSize: 'medium',
+    requiredTelemetryStreams: ['inspection-progress'],
     metadata: {
       subtitle: 'Inspection passes completed by sector',
       chartData: {
@@ -288,6 +365,7 @@ export const TERRAGRID_TILES: readonly DashboardTileDefinition[] = [
     label: 'Battery and Thermal Chart',
     component: TelemetryChartTileComponent,
     defaultSize: 'medium',
+    requiredTelemetryStreams: ['battery-state', 'drive-temperature'],
     metadata: {
       subtitle: 'Battery state and drive temperature',
       chartData: {

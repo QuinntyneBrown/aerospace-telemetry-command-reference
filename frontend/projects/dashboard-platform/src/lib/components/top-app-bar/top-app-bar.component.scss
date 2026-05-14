@@ -1,11 +1,11 @@
 :host {
   display: block;
-}
-
-.topbar {
   position: sticky;
   top: 0;
   z-index: 20;
+}
+
+.topbar {
   display: flex;
   align-items: center;
   gap: 12px;

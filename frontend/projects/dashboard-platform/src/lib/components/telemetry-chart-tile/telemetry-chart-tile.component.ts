@@ -79,7 +79,9 @@ export class TelemetryChartTileComponent {
   }
 
   protected get subtitle(): string {
-    const base = (this.definition.metadata?.['subtitle'] as string | undefined) ?? '';
-    return base ? `${base} · backend live` : 'Backend live telemetry';
+    return (
+      (this.definition.metadata?.['subtitle'] as string | undefined) ??
+      'Rolling telemetry samples'
+    );
   }
 }

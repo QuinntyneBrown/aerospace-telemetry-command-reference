@@ -165,15 +165,37 @@ export const WHITE_LABEL_TILES: readonly DashboardTileDefinition[] = [
     defaultSize: 'wide',
     metadata: {
       metrics: [
-        { label: 'Online machines', value: '12', trend: '+2', icon: 'robot_2', color: '#63d7ff' },
-        { label: 'Fleet health', value: '94%', trend: '+1.8%', icon: 'favorite', color: '#6ee7b7' },
-        { label: 'Active missions', value: '7', trend: 'steady', icon: 'route', color: '#f8c455' },
+        {
+          label: 'Online machines',
+          value: '12',
+          trend: '+2',
+          icon: 'robot_2',
+          color: '#63d7ff',
+          machineMetric: 'onlineCount',
+        },
+        {
+          label: 'Fleet health',
+          value: '94%',
+          trend: '+1.8%',
+          icon: 'favorite',
+          color: '#6ee7b7',
+          streamId: 'fleet-health',
+        },
+        {
+          label: 'Active missions',
+          value: '7',
+          trend: 'steady',
+          icon: 'route',
+          color: '#f8c455',
+          machineMetric: 'activeMissions',
+        },
         {
           label: 'Alerts',
           value: '2',
           trend: '-1',
           icon: 'notification_important',
           color: '#fb7185',
+          machineMetric: 'alerts',
         },
       ],
     },
@@ -268,6 +290,7 @@ export const WHITE_LABEL_TILES: readonly DashboardTileDefinition[] = [
     label: 'Event Stream',
     component: EventStreamTileComponent,
     defaultSize: 'medium',
+    requiredTelemetryStreams: ['fleet-health', 'telemetry-ingest', 'command-latency', 'battery-state'],
     metadata: { events },
   },
   {

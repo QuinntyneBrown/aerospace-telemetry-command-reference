@@ -1,5 +1,6 @@
 :host {
   display: inline-flex;
+  min-width: 0;
 }
 
 .tile-add-form {
@@ -7,4 +8,15 @@
   align-items: center;
   gap: 8px;
   min-width: 0;
+}
+
+@media (max-width: 640px) {
+  :host,
+  .tile-add-form {
+    width: 100%;
+  }
+
+  viam-select-field {
+    flex: 1 1 auto;
+  }
 }

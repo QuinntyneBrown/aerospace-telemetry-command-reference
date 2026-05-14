@@ -50,12 +50,16 @@ interface BackendTelemetryUpdateDto {
 interface BackendMachineStatusUpdateDto {
   readonly machineId: string;
   readonly status: string | number;
+  readonly position?: BackendPositionDto | null;
+  readonly battery?: BackendBatteryDto | null;
+  readonly missionState?: string | null;
   readonly updatedAt: string;
 }
 
 type WindowWithTelemetryProbe = Window &
   typeof globalThis & {
     __ninjaTelemetrySamples?: readonly TelemetrySample[];
+    __ninjaMachines?: readonly Machine[];
   };
 
 @Injectable()
@@ -102,7 +106,7 @@ export class BackendTelemetryStreamService implements ITelemetryStreamService {
     const machines = await this.request<readonly BackendMachineDto[]>(
       `/api/v1/tenants/${this.tenantSlug}/machines`,
     );
-    this.machinesSubject.next(machines.map((machine) => this.mapMachine(machine)));
+    this.setMachines(machines.map((machine) => this.mapMachine(machine)));
 
     const latestSamples = await Promise.all(
       machines.map((machine) =>
@@ -242,13 +246,36 @@ export class BackendTelemetryStreamService implements ITelemetryStreamService {
   }
 
   private updateMachineStatus(update: BackendMachineStatusUpdateDto): void {
-    this.machinesSubject.next(
+    this.setMachines(
       this.machinesSubject.value.map((machine) =>
         machine.id === update.machineId
-          ? { ...machine, status: this.mapStatus(update.status), lastSeenAt: update.updatedAt }
+          ? {
+              ...machine,
+              status: this.mapStatus(update.status),
+              location: update.position
+                ? {
+                    latitude: update.position.latitude,
+                    longitude: update.position.longitude,
+                    headingDegrees: update.position.headingDegrees ?? undefined,
+                  }
+                : machine.location,
+              batteryPercent: update.battery
+                ? Math.round(update.battery.percent)
+                : machine.batteryPercent,
+              missionState: update.missionState ?? machine.missionState,
+              lastSeenAt: update.updatedAt,
+            }
           : machine,
       ),
     );
+  }
+
+  private setMachines(machines: readonly Machine[]): void {
+    this.machinesSubject.next(machines);
+
+    if (typeof window !== 'undefined') {
+      (window as WindowWithTelemetryProbe).__ninjaMachines = machines;
+    }
   }
 
   private mapStatus(status: string | number): MachineStatus {

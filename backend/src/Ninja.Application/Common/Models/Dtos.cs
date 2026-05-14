@@ -64,7 +64,14 @@ public sealed record TelemetrySampleDto(
 
 public sealed record TelemetryUpdateDto(string TenantSlug, Guid MachineId, TelemetrySampleDto Sample);
 
-public sealed record MachineStatusUpdateDto(string TenantSlug, Guid MachineId, MachineStatus Status, DateTimeOffset UpdatedAt);
+public sealed record MachineStatusUpdateDto(
+    string TenantSlug,
+    Guid MachineId,
+    MachineStatus Status,
+    GeoPositionDto Position,
+    BatteryStateDto Battery,
+    string MissionState,
+    DateTimeOffset UpdatedAt);
 
 public sealed record CommandExecutionDto(
     Guid Id,

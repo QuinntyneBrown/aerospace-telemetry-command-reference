@@ -120,12 +120,28 @@ export const HARBORLIFT_TELEMETRY_STREAMS: readonly TelemetryStreamDefinition[] 
     color: '#7dd3fc',
   },
   {
+    id: 'charging-wait-minutes',
+    label: 'Charging wait',
+    valueType: 'number',
+    unit: 'min',
+    icon: 'schedule',
+    color: '#fbbf24',
+  },
+  {
     id: 'container-move-progress',
     label: 'Container move progress',
     valueType: 'number',
     unit: '%',
     icon: 'inventory_2',
     color: '#22c55e',
+  },
+  {
+    id: 'container-throughput',
+    label: 'Container throughput',
+    valueType: 'number',
+    unit: 'moves/hr',
+    icon: 'conveyor_belt',
+    color: '#7dd3fc',
   },
   {
     id: 'handoff-status',
@@ -186,13 +202,21 @@ export const HARBORLIFT_TILES: readonly DashboardTileDefinition[] = [
     defaultSize: 'wide',
     metadata: {
       metrics: [
-        { label: 'AMRs active', value: '38', trend: '+4', icon: 'forklift', color: '#4dd7c8' },
+        {
+          label: 'AMRs active',
+          value: '38',
+          trend: '+4',
+          icon: 'forklift',
+          color: '#4dd7c8',
+          machineMetric: 'onlineCount',
+        },
         {
           label: 'Dock utilization',
           value: '81%',
           trend: '+6%',
           icon: 'warehouse',
           color: '#7dd3fc',
+          streamId: 'dock-utilization',
         },
         {
           label: 'Moves complete',
@@ -200,8 +224,16 @@ export const HARBORLIFT_TILES: readonly DashboardTileDefinition[] = [
           trend: '+18',
           icon: 'inventory_2',
           color: '#22c55e',
+          streamId: 'container-throughput',
         },
-        { label: 'Blocked paths', value: '3', trend: '+1', icon: 'block', color: '#f97373' },
+        {
+          label: 'Blocked paths',
+          value: '3',
+          trend: '+1',
+          icon: 'block',
+          color: '#f97373',
+          streamId: 'route-blockage',
+        },
       ],
     },
   },
@@ -261,8 +293,22 @@ export const HARBORLIFT_TILES: readonly DashboardTileDefinition[] = [
     defaultSize: 'small',
     metadata: {
       metrics: [
-        { label: 'Queued AMRs', value: '4', trend: '+2', icon: 'ev_station', color: '#7dd3fc' },
-        { label: 'Avg wait', value: '11m', trend: '-3m', icon: 'schedule', color: '#fbbf24' },
+        {
+          label: 'Queued AMRs',
+          value: '4',
+          trend: '+2',
+          icon: 'ev_station',
+          color: '#7dd3fc',
+          streamId: 'charging-queue-depth',
+        },
+        {
+          label: 'Avg wait',
+          value: '11m',
+          trend: '-3m',
+          icon: 'schedule',
+          color: '#fbbf24',
+          streamId: 'charging-wait-minutes',
+        },
       ],
     },
   },
@@ -271,6 +317,7 @@ export const HARBORLIFT_TILES: readonly DashboardTileDefinition[] = [
     label: 'Blocked Path Alerts',
     component: EventStreamTileComponent,
     defaultSize: 'medium',
+    requiredTelemetryStreams: ['route-blockage', 'aisle-congestion', 'handoff-status'],
     metadata: { events: blockedPathEvents },
   },
   {
@@ -295,6 +342,7 @@ export const HARBORLIFT_TILES: readonly DashboardTileDefinition[] = [
     label: 'Throughput Chart',
     component: TelemetryChartTileComponent,
     defaultSize: 'medium',
+    requiredTelemetryStreams: ['container-throughput'],
     metadata: {
       subtitle: 'Container moves per hour',
       chartData: {

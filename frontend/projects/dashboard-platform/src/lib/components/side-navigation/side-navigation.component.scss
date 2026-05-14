@@ -1,3 +1,12 @@
 :host {
-  display: contents;
+  display: block;
+  align-self: stretch;
+  min-height: 100%;
+}
+
+@media (max-width: 820px) {
+  :host {
+    min-height: auto;
+    width: 100%;
+  }
 }

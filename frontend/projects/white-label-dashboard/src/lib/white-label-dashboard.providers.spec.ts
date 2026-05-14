@@ -45,4 +45,24 @@ describe('provideWhiteLabelDashboard', () => {
     expect(text).not.toContain('HarborLift');
     expect(text).not.toContain('TerraGrid');
   });
+
+  it('maps telemetry-backed tiles to registered neutral streams', () => {
+    const streams = new Set(TestBed.inject(TELEMETRY_STREAMS).map((stream) => stream.id));
+    const tileStreams = TestBed.inject(DASHBOARD_TILES).flatMap((tile) => [
+      ...(tile.requiredTelemetryStreams ?? []),
+      ...(((tile.metadata?.['metrics'] as readonly { streamId?: string }[] | undefined) ?? [])
+        .map((metric) => metric.streamId)
+        .filter((streamId): streamId is string => Boolean(streamId))),
+    ]);
+
+    expect(tileStreams).toEqual(
+      expect.arrayContaining([
+        'fleet-health',
+        'telemetry-ingest',
+        'command-latency',
+        'battery-state',
+      ]),
+    );
+    expect(tileStreams.filter((streamId) => !streams.has(streamId))).toEqual([]);
+  });
 });

@@ -38,6 +38,7 @@ export class ViamSelectFieldComponent {
   @Output() valueChange = new EventEmitter<string>();
 
   onChange(event: Event): void {
-    this.valueChange.emit((event.target as HTMLSelectElement).value);
+    this.value = (event.target as HTMLSelectElement).value;
+    this.valueChange.emit(this.value);
   }
 }
